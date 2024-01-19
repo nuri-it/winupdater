@@ -20,6 +20,7 @@ Ensure you have PowerShell installed on your Windows system.
 4. Run the script using the command:
    ```.\WinUpdater.ps1```
 ## Automation with Task Scheduler
+- Run the following command in PowerShell as Administrator ```Set-ExecutionPolicy Bypass``` 
 - Extract the Code to ```C:\scripts```.
 - Open Task Scheduler and click on Import ```Task```.
 - Browse C:\scripts\winupdater-main and select ```WinUpdater.xml```.
