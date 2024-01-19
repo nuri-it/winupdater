@@ -22,11 +22,11 @@ Ensure you have PowerShell installed on your Windows system.
 ## Automation with Task Scheduler
 - Extract the Code to ```C:\scripts```.
 - Open Task Scheduler and click on Import ```Task```.
-- Browse C:\scripts and select ```WinUpdater.xml```.
+- Browse C:\scripts\winupdater-main and select ```WinUpdater.xml```.
 - The script will run everyday at 01:00 by default.
 
 ## Log File
-The Log File will be stored under ```C:\scripts\WinUpdater```
+The Log File will be stored under ```C:\scripts\winupdater-main```
 
 ## Important Note
 
