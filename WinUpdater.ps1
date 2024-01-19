@@ -2,7 +2,7 @@
 # Created: 01.2024
 # https://github.com/nuri-it/winupdater
 
-$logFilePath = Join-Path -Path $PSScriptRoot -ChildPath "winupdater.log"
+$logFilePath = Join-Path -Path $PSScriptRoot -ChildPath "WinUpdater.log"
 if (-not (Test-Path $logFilePath)) {
     New-Item -ItemType File -Path $logFilePath -Force | Out-Null
 }
