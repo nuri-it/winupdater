@@ -20,9 +20,9 @@ Ensure you have PowerShell installed on your Windows system.
 4. Run the script using the command:
    ```.\WinUpdater.ps1```
 ## Automation with Task Scheduler
-- Open Task Scheduler.
-- Create a new task and configure it to run the WinUpdater.ps1 script on a schedule.
-- Ensure the task has appropriate privileges.
+- Extract the Code to ```C:\scripts```.
+- Open Task Scheduler and click on Import ```Task```.
+- Browse C:\scripts and select ```WinUpdater.xml```.
 
 ## Important Note
 
