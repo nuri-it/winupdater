@@ -36,6 +36,18 @@ Make sure to review the generated log file for any potential issues or errors du
 
 Contributions are welcome! If you have any improvements or suggestions, feel free to open an issue or create a pull request.
 
+## ToDos
+
+Make the script install updates in remote Servers
+```
+Install-Module -Name PSWindowsUpdate -Force
+Get-Package -Name PSWindowsUpdate
+get-command -module PSWindowsUpdate
+Get-WindowsUpdate
+Get-WUList –ComputerName server2
+Get-WindowsUpdate -AcceptAll -Install -AutoReboot
+```
+
 ## License
 
 This project is licensed under the GPL-3.0 License.
